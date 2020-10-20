@@ -330,9 +330,9 @@ void dlgRoomExits::save()
             door = 0;
         }
         QString value = pI->text(7);
-        if (value !=
-                tr("(command or Lua script)", "Placeholder, if a special exit has no code given, yet. This string is "
-                                              "also used programmatically - ensure all five instances are the same") &&
+        if (value != tr("(command or Lua script)",
+                        "Placeholder, if a special exit has no code given, yet. This string is "
+                        "also used programmatically - ensure all five instances are the same") &&
             key != 0 && mpHost->mpMap->mpRoomDB->getRoom(key) != nullptr)
         {
             originalExitCmds.remove(value);

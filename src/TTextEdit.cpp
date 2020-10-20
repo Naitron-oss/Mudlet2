@@ -2579,10 +2579,10 @@ void TTextEdit::slot_analyseSelection()
                                "<tr><th>%12</th>%13</tr>"
                                "</table></small></body></html>")
                     .arg(completedRows)
-                    .arg(
-                        tr("Index (UTF-16)", "1st Row heading for Text analyser output, table item is the count into "
-                                             "the QChars/TChars that make up the text {this translation used 2 times}"),
-                        utf16indexes)
+                    .arg(tr("Index (UTF-16)",
+                            "1st Row heading for Text analyser output, table item is the count into "
+                            "the QChars/TChars that make up the text {this translation used 2 times}"),
+                         utf16indexes)
                     .arg(tr("U+<i>####</i> Unicode Code-point <i>(High:Low Surrogates)</i>",
                             "2nd Row heading for Text analyser output, table item is the unicode code point (will be "
                             "between "

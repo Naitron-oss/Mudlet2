@@ -630,7 +630,7 @@ void mudlet::loadMaps()
     // Initially populated from the dictionaries provided within the Debian
     // GNU/Linux distribution:
     //: In the translation source texts the language is the leading term, with, generally, the (primary) country(ies) in
-    //the brackets, with a trailing language disabiguation after a '-' Chinese is an exception!
+    // the brackets, with a trailing language disabiguation after a '-' Chinese is an exception!
     mDictionaryLanguageCodeMap = {
         {QStringLiteral("af"), tr("Afrikaans")},
         {QStringLiteral("af_za"), tr("Afrikaans (South Africa)")},
